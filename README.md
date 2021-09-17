@@ -14,7 +14,7 @@
 
 ## Live Link
 
-[Link](https://expanding-img.vercel.app/)
+[Link](https://expanding-image.vercel.app/)
 
 ---
 
