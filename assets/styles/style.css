@@ -47,7 +47,8 @@ main div:nth-child(5) {
 }
 
 .container {
-  width: 90vw;
+  width: 1200px;
+  margin: 0 auto;
   display: flex;
 }
 
@@ -80,7 +81,25 @@ main div:nth-child(5) {
 
 .panel.active h3 {
   opacity: 1;
+  transition: opacity 0.5s ease-in 0.5s;
 }
+
+/*
+
+          ========================
+
+                Media Query
+
+          =======================
+
+*/
+
+@media only screen and (max-width: 1250px) {
+  .container {
+    width: 95vw;
+  }
+}
+
 
 @media only screen and (max-width: 500px) {
   .container {
